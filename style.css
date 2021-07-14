@@ -104,13 +104,33 @@ players-section {
 }
 
 /* Matches Section */
+.matches h1 {
+  text-align: center;
+}
 .match {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  margin: 50px 100px;
+  box-shadow: 10px 10px 40px rgb(184, 180, 180);
+  border-radius: 10px;
+}
+.match-info {
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.match-info h2 {
+  padding: 20px;
+}
+.none {
+  visibility: hidden;
 }
 
 .match-photo img {
-  height: 150px;
-  width: 200px;
+  height: 80px;
+  width: 100px;
   border-radius: 50%;
 }
