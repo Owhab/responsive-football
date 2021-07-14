@@ -102,3 +102,15 @@ players-section {
   height: 380px;
   width: 510px;
 }
+
+/* Matches Section */
+.match {
+  display: flex;
+  justify-content: center;
+}
+
+.match-photo img {
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
