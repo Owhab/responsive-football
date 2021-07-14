@@ -1,0 +1,82 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.container {
+  width: 870px;
+  background-color: #ffffff;
+}
+
+/* Header section  */
+.header {
+  background-color: #2d25a0;
+  width: 1440px;
+}
+.title {
+  width: 100%;
+}
+.flaxible {
+  display: flex;
+}
+.copa-title {
+  padding: 160px 111px 169px 147px;
+}
+.half-width {
+  width: 50%;
+}
+.half-width h1 {
+  font-size: 4em;
+  color: #ffffff;
+}
+
+.button {
+  background-color: #e02c6d;
+  color: white;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.banner img {
+  padding: 153px 140px 86px 0px;
+}
+.half-width img {
+  width: 556px;
+  height: 438px;
+}
+
+/* Players Section */
+players-section {
+  display: flex;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.player {
+  height: 474px;
+  width: 330px;
+  background-color: #ffffff;
+  margin: 13px;
+  padding: 30px;
+  padding-right: 15px;
+}
+
+.player img {
+  height: 256px;
+  width: 300px;
+}
