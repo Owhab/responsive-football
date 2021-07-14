@@ -53,6 +53,11 @@ main {
 .banner img {
   padding: 5px;
   width: 450px;
+  transition: transform 2s;
+}
+
+.banner img:hover {
+  transform: scale(0.8);
 }
 
 /* Players Section */
@@ -74,7 +79,6 @@ players-section {
 
 .player img {
   height: 256px;
-  width: 330px;
 }
 
 /* Highlights Section */
@@ -92,12 +96,9 @@ players-section {
 .content p {
   line-height: 1.8;
 }
-.photo {
-}
 
 .photo img {
   height: 380px;
-  width: 510px;
 }
 
 /* Matches Section */
@@ -233,6 +234,7 @@ footer img {
   .banner img {
     display: flex;
     width: 100%;
+    padding-left: 230px;
   }
   .flaxible {
     flex-direction: column;
