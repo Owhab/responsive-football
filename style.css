@@ -171,8 +171,8 @@ footer img {
   .content h1 {
     font-size: 2em;
   }
-  .photo img {
-    width: 400px;
+  .banner img {
+    width: 100%;
   }
   .match {
     display: flex;
@@ -215,7 +215,7 @@ footer img {
     font-size: 3em;
   }
   .photo img {
-    width: 600px;
+    width: s550px;
   }
   .match {
     display: flex;
@@ -230,11 +230,14 @@ footer img {
     font-size: 3em;
   }
 
-  .banner img .header {
+  .banner img {
     display: flex;
     width: 100%;
   }
   .flaxible {
     flex-direction: column;
+  }
+  .player img {
+    height: 256px;
   }
 }
