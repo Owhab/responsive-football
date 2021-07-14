@@ -27,7 +27,7 @@ main {
   display: flex;
 }
 .copa-title {
-  padding: 160px 111px 169px 147px;
+  padding: 20px;
 }
 .half-width {
   width: 50%;
@@ -51,11 +51,8 @@ main {
   cursor: pointer;
 }
 .banner img {
-  padding: 153px 140px 86px 0px;
-}
-.half-width img {
-  width: 556px;
-  height: 438px;
+  padding: 5px;
+  width: 450px;
 }
 
 /* Players Section */
@@ -154,4 +151,43 @@ footer img {
 }
 .fab {
   padding: 20px;
+}
+/* Adding Media Queries */
+
+@media only screen and (max-width: 688px) {
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .highlights {
+    flex-direction: column;
+    margin: 20px;
+    padding: 0;
+  }
+  .content {
+    margin: 20px 0;
+  }
+  .content h1 {
+    font-size: 2em;
+  }
+  .photo img {
+    width: 400px;
+  }
+  .match {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    justify-content: center;
+  }
+  .container {
+    width: 100%;
+  }
+  .half-width h1 {
+    font-size: 2em;
+  }
+  .header {
+    width: 100%;
+  }
+  .flaxible {
+    flex-direction: column;
+  }
 }
