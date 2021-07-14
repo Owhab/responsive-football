@@ -68,7 +68,7 @@ players-section {
   grid-template-columns: repeat(3, 1fr);
 }
 .player {
-  height: 474px;
+  height: 450px;
   width: 330px;
   background-color: #ffffff;
   margin: 13px;
