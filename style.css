@@ -193,6 +193,10 @@ footer img {
   .flaxible {
     flex-direction: column;
   }
+  .photo img {
+    height: 380px;
+    width: 100%;
+  }
 }
 
 /* Media Queries For Medium Size Screen Like Tablet */
@@ -241,5 +245,9 @@ footer img {
   }
   .player img {
     height: 256px;
+  }
+  .photo img {
+    height: 380px;
+    width: 100%;
   }
 }
