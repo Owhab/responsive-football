@@ -132,6 +132,36 @@ players-section {
   width: 100px;
   border-radius: 50%;
 }
+
+.football {
+  background: url("../images/players/football.jpg");
+  padding: 60px 120px;
+  text-align: center;
+  color: rgb(54, 52, 52);
+  margin: 25px 0;
+}
+.football h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.football p {
+  font-size: 16px;
+  padding: 0 15px 0 15px;
+}
+.football-players {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2em;
+  margin: 30px 0;
+}
+.football-player {
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px rgb(200, 187, 187);
+}
+.football-player img {
+  width: 100%;
+}
+
 .social {
   text-align: center;
 }
@@ -160,6 +190,10 @@ footer img {
 @media only screen and (max-width: 688px) {
   .players {
     grid-template-columns: repeat(1, 1fr);
+    padding-left: 25px;
+  }
+  .player-info {
+    padding-right: 25px;
   }
   .highlights {
     flex-direction: column;
@@ -181,6 +215,13 @@ footer img {
     margin: 10px 20px;
     justify-content: center;
   }
+  .football {
+    padding: 20px;
+  }
+  .football-players {
+    display: flex;
+    flex-direction: column;
+  }
   .container {
     width: 100%;
   }
@@ -197,16 +238,24 @@ footer img {
     height: 380px;
     width: 100%;
   }
+  footer img {
+    height: 80px;
+    width: 290px;
+  }
 }
 
 /* Media Queries For Medium Size Screen Like Tablet */
 
 @media only screen and (min-width: 689px) and (max-width: 992px) {
-  .players {
+  .players,
+  .football-players {
     grid-template-columns: repeat(2, 1fr);
   }
   .player {
     width: 300px;
+  }
+  .football {
+    padding: 30px;
   }
   .highlights {
     flex-direction: column;
